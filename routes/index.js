@@ -49,4 +49,8 @@ router.get("/plus/:a/:b", function (req, res, next) {
   })
 })
 
+router.get('/test', function(req, res, next) {
+  res.send('respond with a resource +555555');
+});
+
 module.exports = router;
